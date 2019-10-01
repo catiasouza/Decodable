@@ -17,10 +17,12 @@ class ViewController: UIViewController {
 
     func getViagens(){
       
-        guard let listaViagens = ViagemApi().getViagens() else{
+        guard let json = ViagemApi().getViagens() else{
             return
         }
-   print(listaViagens)
+        let listaViagem = Viagem().desserializa(json)
+        print(listaViagem)
+   
         
     }
 }
