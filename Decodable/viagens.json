@@ -3,21 +3,21 @@
         "id": 1,
         "titulo": "Ceara",
         "quantidade_de_dias": 3,
-        "preco": "1.800,00"
-        "Localizacao": "Praia canoa quebradada"
+        "preco": "1.800,00",
+        "Localizacao": "Praia canoa quebrada"
     },
     {
         "id": 2,
         "titulo": "Brasilia",
         "quantidade_de_dias": 9,
-        "preco": "5.000,00"
+        "preco": "5.000,00",
         "Localizacao": "Asa Sul"
     },
     {
         "id": 3,
         "titulo": "Folrianopolis",
         "quantidade_de_dias": 1,
-        "preco": "5.800,00"
+        "preco": "5.800,00",
         "Localizacao": "Praia"
-    },
+    }
 ]

@@ -12,9 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        getViagens()
     }
 
-
+    func getViagens(){
+      
+        guard let listaViagens = ViagemApi().getViagens() else{
+            return
+        }
+   print(listaViagens)
+        
+    }
 }
 
